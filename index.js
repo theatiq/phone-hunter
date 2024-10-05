@@ -6,8 +6,8 @@ const showPhones = async (search) => {
         console.log("Hello");
         const showSpinner = document.getElementById("spinner")
         showSpinner.style.display = "none"
+        displayData(showData.data);
     }, 3000);
-    displayData(showData.data);
 }
 
 
