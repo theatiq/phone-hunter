@@ -58,6 +58,7 @@ const displayData = (phones) => {
         const slugId = phone.slug
         // console.log(slugId);
         const div = document.createElement("div")
+        // div.classList.add("flex")
         div.innerHTML = `
               <figure>
         <img
